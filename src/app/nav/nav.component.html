@@ -1,0 +1,17 @@
+<div class="top">
+    <img src="assets/img/logo.png" class="logo">
+    <nav>
+        <ul>
+            <li><a class="link" routerLink="/home" routerLinkActive="active">Home</a></li>
+            <li><a class="link" routerLink="/patient" routerLinkActive="active">Patient</a></li>
+            <li>
+                <a class="link" *ngIf="!token" routerLink="/login" routerLinkActive="active">Login</a>
+                <span *ngIf="token">
+                    <a class="txt">Welcome! {{claims.name}} </a>
+                    <a class="link" (click)="logout()">Log out</a>
+                </span>
+            </li>
+        </ul>
+    </nav>
+    
+</div>

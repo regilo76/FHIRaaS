@@ -1,0 +1,14 @@
+<div class="home">
+<h1>Profile</h1>
+<div *ngIf="token">
+    <div>
+        name: {{claims.name}}
+    </div>
+    <div>
+        email: {{claims.email}}
+    </div>
+    <div>
+        website: {{claims.website}}
+    </div>
+</div>
+</div>

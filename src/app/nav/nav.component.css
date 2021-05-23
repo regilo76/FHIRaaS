@@ -1,0 +1,25 @@
+.top{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.txt{
+    color: #fff;
+}
+.logo{
+    height: 50px;
+}

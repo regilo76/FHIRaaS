@@ -1,0 +1,9 @@
+.home{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
